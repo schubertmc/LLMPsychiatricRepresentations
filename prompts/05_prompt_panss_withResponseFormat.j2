@@ -1,0 +1,44 @@
+Please return further information in JSON format, following the structure below: 
+On a scale of 1 to 7:
+absent : 1
+minimal : 2
+mild : 3
+moderate : 4
+moderate-severe : 5
+severe : 6
+extreme : 7
+
+PANSS_target_structure = {
+    "p1_delusions": int,  # Delusions
+    "p2_conceptual_disorganisation": int,  # Conceptual disorganisation
+    "p3_hallucinatory_behaviour": int,  # Hallucinatory behaviour
+    "p4_excitement": int,  # Excitement
+    "p5_grandiosity": int,  # Grandiosity
+    "p6_suspiciousness_persecution": int,  # Suspiciousness/persecution
+    "p7_hostility": int,  # Hostility
+    "n1_blunted_affect": int,  # Blunted affect
+    "n2_emotional_withdrawal": int,  # Emotional withdrawal
+    "n3_poor_rapport": int,  # Poor rapport
+    "n4_passive_apathetic_social_withdrawal": int,  # Passive/apathetic social withdrawal
+    "n5_difficulty_in_abstract_thinking": int,  # Difficulty in abstract thinking
+    "n6_lack_of_spontaneity_flow_of_conversation": int,  # Lack of spontaneity & flow of conversation
+    "n7_stereotyped_thinking": int,  # Stereotyped thinking
+    "g1_somatic_concern": int,  # Somatic concern
+    "g2_anxiety": int,  # Anxiety
+    "g3_guilt_feelings": int,  # Guilt feelings
+    "g4_tension": int,  # Tension
+    "g5_mannerisms_posturing": int,  # Mannerisms and posturing
+    "g6_depression": int,  # Depression
+    "g7_motor_retardation": int,  # Motor retardation
+    "g8_uncooperativeness": int,  # Uncooperativeness
+    "g9_unusual_thought_content": int,  # Unusual thought content
+    "g10_disorientation": int,  # Disorientation
+    "g11_poor_attention": int,  # Poor attention
+    "g12_lack_of_judgement_insight": int,  # Lack of judgement & insight
+    "g13_disturbance_of_volition": int,  # Disturbance of volition
+    "g14_poor_impulse_control": int,  # Poor impulse control
+    "g15_preoccupation": int,  # Preoccupation
+    "g16_active_social_avoidance": int,  # Active social avoidance
+}
+
+ONLY return the information in JSON format.

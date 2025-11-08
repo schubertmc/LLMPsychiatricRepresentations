@@ -1,0 +1,14 @@
+Please create 20 short patient reports for patients with {{ disorder_long }}. 
+Please only return your answer in JSON format, following the structure below: 
+ {
+    "reports": [
+        {
+             "patient_report": "<Patient report>",
+            "chars": {
+                "sex": "<str> ["Male", "Female"]",
+                "age_current": <int> (Current age),
+                "age_of_onset": <int> (Age of onset)   
+            } 
+        }
+    ]
+}

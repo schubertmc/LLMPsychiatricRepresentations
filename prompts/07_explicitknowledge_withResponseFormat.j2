@@ -1,0 +1,8 @@
+State the median age of onset and the interquartile range (IQR), as well as the female prevalence (%) for {{ disorder_long }}. 
+Please only return your answer in JSON format, following the structure below: 
+{
+    "median_age_of_onset": float,  # Median age of onset in years
+    "iqr_lower": float,  # Lower bound of the IQR (Q1), in years
+    "iqr_upper": float,  # Upper bound of the IQR (Q3), in years
+    "female_prevalence_pct": float,  # Female prevalence as a percentage (0–100)
+}
